@@ -1,0 +1,139 @@
+------------------------------------------------------------------------
+r1980 | angosia | 2013-09-10 00:10:45 +0000 (Tue, 10 Sep 2013) | 3 lines
+Changed paths:
+   M /trunk/Data/Paladin.lua
+   M /trunk/Data/Shaman.lua
+   M /trunk/DrDamage.toc
+
+- Fix minor LUA errors for shaman and paladin.
+- Update TOC for 5.4
+- NOTE: Tier 16 sets not yet implemented.
+------------------------------------------------------------------------
+r1979 | angosia | 2013-09-08 19:12:56 +0000 (Sun, 08 Sep 2013) | 1 line
+Changed paths:
+   M /trunk/Changelog.txt
+
+Updated Changelog for 5.4
+------------------------------------------------------------------------
+r1978 | angosia | 2013-09-08 19:10:17 +0000 (Sun, 08 Sep 2013) | 3 lines
+Changed paths:
+   M /trunk/Data/Paladin.lua
+
+- 5.4 Paladin changes
+- Disabled Divine Plea debuff - no longer reduces healing taken by 50%
+- Added logic for Holy Insight modifying certain spells by 25% and others by 50%
+------------------------------------------------------------------------
+r1977 | angosia | 2013-09-08 18:59:12 +0000 (Sun, 08 Sep 2013) | 4 lines
+Changed paths:
+   M /trunk/Data/Warrior.lua
+
+- 5.4 Warrior changes
+- Made Blood and Thunder affect all specs (was just prot warriors)
+- Increased the damage of Blood and Thunder by 65% to 247.5% weapon damage (was 150%)
+- Added logic to change weapon damage of Bladestorm for arms and prot
+------------------------------------------------------------------------
+r1976 | angosia | 2013-09-08 18:46:49 +0000 (Sun, 08 Sep 2013) | 12 lines
+Changed paths:
+   M /trunk/Data/Warlock.lua
+
+- 5.4 Warlock Changes
+- Increased Corruption damage by 10%
+- Increased Fel Flame damage by 13%
+- Increased Immolate damage by 10%
+- Increased Unstable Affliction by 21%
+- Reduced Drain Soul damage by 34%
+- Increased damage bonus of Haunt buff to 45% (was 30%)
+- Increased Haunt damage 50%
+- Decreased Malefic Grasp damage by 34%
+- Removed Drain Soul/Life from Grimoire of Sacrifice
+- Reduced damage bonus of Grimoire of Sacrifice for Affliction to 20% (was 30%)
+- New passive: Harvest Life not yet implemented
+------------------------------------------------------------------------
+r1975 | angosia | 2013-09-08 18:31:04 +0000 (Sun, 08 Sep 2013) | 9 lines
+Changed paths:
+   M /trunk/Data/Shaman.lua
+
+- 5.4 Shaman Changes
+- Set Chain Heal's chain factor to no longer decrease in effectiveness per jump
+- Reduced Healing Rain's effectiveness by 30%
+- Added conditional for purification to increase Healing Rain by 100%
+- Increased aoe targets for Healing Rain from 5 to 12
+- Increased Fire Nova damage by 83% for enhancement
+- Decreased damage of Stormstrike to 380% weapon damage (was 450%)
+- Added Elemental blast to Stormstrike crit modifier
+- New talent: Rushing Streams not yet implemented.
+------------------------------------------------------------------------
+r1974 | angosia | 2013-09-08 18:06:52 +0000 (Sun, 08 Sep 2013) | 4 lines
+Changed paths:
+   M /trunk/Data/Priest.lua
+
+- 5.4 Priest Changes
+- Increased Shadow Word: Death by 15%
+- Increased Shadow Word: Pain by 25%
+- Increased Vampiric Touch by 20%
+------------------------------------------------------------------------
+r1973 | angosia | 2013-09-06 03:19:23 +0000 (Fri, 06 Sep 2013) | 11 lines
+Changed paths:
+   M /trunk/Data/Rogue.lua
+
+- 5.4 Rogue Changes
+- Decreased damage of Eviscerate by 10%
+- Increased Dispatch to 645% of weapon damage (up from 460%)
+- Increased Mutilate to 280% weapon damage (up from 200%)
+- Increased Revealing Strike to 160% weapon damage (up from 125%)
+- Increased Vitality to 140% AP (up from 140%)
+- Increased Backstab to 380% weapon damage (up from 275%)
+- Increased Hemorrhage to 160% weapon damage (up from 140%)
+- Increased Sanguinary Vein to 125% damage (was 120%)
+- Increased Sinister Strike to 240% weapon damage (was 145%)
+
+------------------------------------------------------------------------
+r1972 | angosia | 2013-09-06 02:58:16 +0000 (Fri, 06 Sep 2013) | 7 lines
+Changed paths:
+   M /trunk/Data/Mage.lua
+
+- 5.4 Mage Changes
+- Disabled frostbolt stacking buff (no longer applies) to frost spells.
+- Increased Ice Lance 43%
+- Increased PvP damage of Frost Bomb to 70% (was 60%)
+- Increased PvP damage of Living Bomb to 85% (was 70%)
+- Increased PvP damage of Nether Tempest to 85% (was 70%)
+- New frost mage mastery not yet implemented - is currently inaccurate except for elemental pet.
+------------------------------------------------------------------------
+r1971 | angosia | 2013-09-06 02:47:42 +0000 (Fri, 06 Sep 2013) | 5 lines
+Changed paths:
+   M /trunk/Data/Hunter.lua
+
+- 5.4 Hunter Changes
+- Arcane shot increased to 125% weapon damage. (was 100%)
+- Aimed Shot increased to 450% weapon damage. (was 350%)
+- Explosive Shot Increased by 30%
+- Explosive Trap decreased by 30%
+------------------------------------------------------------------------
+r1970 | angosia | 2013-09-06 02:31:05 +0000 (Fri, 06 Sep 2013) | 8 lines
+Changed paths:
+   M /trunk/Data/Druid.lua
+
+- 5.4 Druid Changes
+- Increased Wrath by 10%
+- Increased Starfall by 10%
+- Increased Starfire by 10%
+- Increased Dream of Cenarius to 30% for kitty.  (was 25%)
+- Decreased Dream of Cenarius to 25% for boomkins. (was 30%)
+- Increased Nature's Vigil to 12% (was 10%)
+
+------------------------------------------------------------------------
+r1969 | angosia | 2013-09-06 02:21:03 +0000 (Fri, 06 Sep 2013) | 9 lines
+Changed paths:
+   M /trunk/Data/DeathKnight.lua
+
+- 5.4 DK changes
+- Adjusted necrotic strike down to 100% weapon damage (was 150%)
+- Increased Razorice up to 3% (was 2%)
+- Increased Frost Strike to 115% of weapon damage (was 105%)
+- Increased Howling Blast by 15% (down from 30% in previous PTR)
+- Increased Might of the Frozen Wastes to 30% (was 20%)
+- Increased Obliterate to 250% weapon damage (was 230%)
+- Increased Unholy Might to 25% (was 10%)
+- Added damage modifier buff for Death Siphon
+------------------------------------------------------------------------
